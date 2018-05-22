@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600,1000);
+  createCanvas(windowWidth,windowHeight);
   background(243,8,49)
   gif = loadGif("sydney&sophia.gif");
   sound.play();
@@ -18,6 +18,6 @@ function draw() {
   imageMode(CENTER, CENTER)
   image(gif, mouseX, mouseY);
 }
-//function windowResized() {
-  //resizeCanvas(windowWidth,windowHeight);
-//}
+function windowResized() {
+  resizeCanvas(windowWidth,windowHeight);
+}
