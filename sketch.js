@@ -18,6 +18,6 @@ function draw() {
   imageMode(CENTER, CENTER)
   image(gif, mouseX, mouseY);
 }
-function windowResized() {
-  resizeCanvas(windowWidth,windowHeight);
-}
+//function windowResized() {
+  //resizeCanvas(windowWidth,windowHeight);
+//}
