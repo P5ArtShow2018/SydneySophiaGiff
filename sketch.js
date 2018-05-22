@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(1000,1000);
   background(243,8,49)
   gif = loadGif("sydney&sophia.gif");
   sound.play();
